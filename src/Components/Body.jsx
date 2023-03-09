@@ -9,7 +9,7 @@ const Body = () => {
           Hi, I am Daniella
         </h1>
         <p className=' lg:w-full lg:text-center'>
-          I’m a Graphic Designer. I am passionate about creating eye-catching designs for you and your users. Let's chat and I would handle that design job to your taste.
+          I’m a Graphic Designer. I am passionate about creating eye-catching designs for you and your users. Let's chat and I would handle that design to your taste.
         </p>
       </div>
       <div className=" w-[35%] lg:w-[50%] md:w-[75%] lg:m-auto">

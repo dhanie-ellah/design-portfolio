@@ -54,7 +54,7 @@ const Footer = () => {
       <hr className=" bg-[#b1cbf5] outline-none border-none h-[1px]" />
       <div className=' mb-2'>
         <p className=" text-center text-xs text-[#b1cbf5]">
-          Coded by
+          Coded by {" "}
           <a
             href="https://github.com/dhanie-ellah"
             target="_blank"
