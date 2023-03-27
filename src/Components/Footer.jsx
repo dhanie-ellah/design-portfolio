@@ -1,4 +1,4 @@
-import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGoogleDrive, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
@@ -8,16 +8,18 @@ const Footer = () => {
     <div className=" flex flex-col gap-2">
       <div className=" flex justify-center gap-1 items-center">
         <div className=" flex gap-1 items-center">
+          {/* google drive link */}
           <a
-            href="https://facebook.com/dhanie-ellah"
+            href="https://drive.google.com/drive/folders/1iv9_QfMO3BhOovR1wWxe47U9A2rK6gRg?usp=share_link"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon
-              icon={faFacebookF}
+              icon={faGoogleDrive}
               className=" bg-[#b1cbf5] text-black rounded-full p-1 w-[10px] h-[10px]"
             />
           </a>
+          {/* instagram link */}
           <a
             href="https://instagram.com/dhanie__ellah"
             target="_blank"
@@ -28,33 +30,23 @@ const Footer = () => {
               className=" bg-[#b1cbf5] text-black rounded-full p-1 w-[10px] h-[10px]"
             />
           </a>
+          {/* whatsapp link */}
           <a
-            href="https://twitter.com/dhanie_ellah"
+            href="https://wa.me/+2348020554163"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon
-              icon={faTwitter}
-              className=" bg-[#b1cbf5] text-black rounded-full p-1 w-[10px] h-[10px]"
-            />
-          </a>
-          <a
-            href="https://linkedin.com/in/braide-daniella-biobele"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={faLinkedinIn}
+              icon={faWhatsapp}
               className=" bg-[#b1cbf5] text-black rounded-full p-1 w-[10px] h-[10px]"
             />
           </a>
         </div>
-        <p className=" text-xs text-[#b1cbf5]">Braide Daniella Biobele</p>
       </div>
       <hr className=" bg-[#b1cbf5] outline-none border-none h-[1px]" />
-      <div className=' mb-2'>
+      <div className=" mb-2">
         <p className=" text-center text-xs text-[#b1cbf5]">
-          Coded by {" "}
+          Coded by{" "}
           <a
             href="https://github.com/dhanie-ellah"
             target="_blank"
