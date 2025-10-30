@@ -14,7 +14,7 @@ const Nav = () => {
             Home
           </Link>
           <a
-            href="https://drive.google.com/drive/folders/1iv9_QfMO3BhOovR1wWxe47U9A2rK6gRg?usp=share_link"
+            href="https://drive.google.com/drive/folders/1jVEGdacr-IccTjD39aFLmLbK-MNnHzk8?usp=drive_link"
             target="_blank"
             rel="noreferrer"
             className=" text-white hover:text-[#b1cbf5]"
