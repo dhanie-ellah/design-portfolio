@@ -10,7 +10,7 @@ const Footer = () => {
         <div className=" flex gap-1 items-center">
           {/* google drive link */}
           <a
-            href="https://drive.google.com/drive/folders/1iv9_QfMO3BhOovR1wWxe47U9A2rK6gRg?usp=share_link"
+            href="https://drive.google.com/drive/folders/1jVEGdacr-IccTjD39aFLmLbK-MNnHzk8?usp=drive_link"
             target="_blank"
             rel="noreferrer"
           >
